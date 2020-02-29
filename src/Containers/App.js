@@ -33,6 +33,7 @@ onSearchChange = (event) => {
             <h1 className='tc'>Loading</h1> :
             (
                 <div className='tc'>
+                    <title>RoboFriends</title>
                     <h1 className='f1'>RoboFriends</h1>
                     <SearchBox searchChange={this.onSearchChange}/>
                     <Scroll>
